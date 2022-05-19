@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Você pode testar abrir este documento em diversos dispositivos, ou mudar a largura da janela do seu navegador no PC.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-media.png" type="image/png">
+        <img src="imagens/imagem-grande.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos a reproduzir áudios em HTML5</p>
+    <audio src="media/bicycle-reunited-kevin_macleod.mp3" controls autoplay></audio>
+    <p>Bicycle - Reunited de Kevin MacLeod é licenciada de acordo com a licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="external">Atribuição 4.0 da Creative Commons</a>.</p>
+    <audio controls autoplay loop preload="metadata">
+        <source src="media/look_busy-kevin_macleod.mp3" type="audio/mpeg">
+    </audio>
+    <p>Look Busy de Kevin MacLeod é licenciada de acordo com a licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="external">Atribuição 4.0 da Creative Commons</a>.</p>
+</body>
+</html>
