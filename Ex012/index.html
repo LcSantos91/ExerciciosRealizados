@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos Com HTML5</title>
+</head>
+<body>
+    <h1>Vídeos Hospedados Localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video width="640" poster="imagem/meuvideo-1.jpg" controls>
+        <source src="media/meuvideo.webm" type="video/webm">
+        <source src="media/meuvideo.mkv" type="video/mkv">
+        <source src="media/meuvideo.m4v" type="video/m4v">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+    <h1>Inserindo vídeo do YouTube</h1>
+    <p>Este é um vídeo incorporado do YouTube</p>
+    <iframe width="640" height="359" src="https://www.youtube.com/embed/hxCoyz8RbTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo vídeo do Reddit</h1>
+    <iframe id="reddit-embed" src="https://www.redditmedia.com/r/funny/comments/v4r6ke/playing_in_a_swamp/?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=dark" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="yes" width="640" height="620"></iframe>
+</body>
+</html>
